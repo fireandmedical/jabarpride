@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pengajuan Sembako Jabar Pride</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1c1c1c, #ffd700); /* Gradien dari hitam ke emas */
+            color: #ffd700; /* Warna teks emas */
+            margin: 0;
+            padding: 20px;
+        }
+        form {
+            background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang form dengan opacity 0.7 */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Bayangan untuk efek kaca */
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative; /* Menetapkan posisi relatif untuk elemen form */
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ffd700; /* Warna garis emas */
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang input dengan opacity 0.5 */
+            color: #ffd700; /* Warna teks emas */
+        }
+        input[type="text"]::placeholder, textarea::placeholder {
+            color: #ffd700; /* Warna placeholder emas */
+        }
+        input[type="submit"] {
+            background-color: #ffd700; /* Warna tombol submit emas */
+            color: #1c1c1c; /* Warna teks tombol hitam */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            position: absolute; /* Menetapkan posisi absolut untuk elemen tombol submit */
+            bottom: 20px; /* Jarak dari bawah */
+            right: 20px; /* Jarak dari kanan */
+        }
+        input[type="submit"]:hover {
+            background-color: #ffc800; /* Warna saat tombol submit dihover kuning lebih terang */
+        }
+        label {
+            color: #ffd700; /* Warna label emas */
+        }
+        h2 {
+            color: #ffd700; /* Warna teks judul emas */
+        }
+        p {
+            color: #ffd700; /* Warna teks paragraf emas */
+        }
+    </style>
+</head>
+<body>
+
+<form action="https://formspree.io/moqgkwyg" method="post">
+    <h2>Form Surat Pengajuan Sembako</h2>
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama" placeholder="Masukan nama sesuai dengan Nama IC" required>
+
+    <label for="alamat">Alamat:</label>
+    <textarea id="alamat" name="alamat" rows="4" placeholder="Masukan alamat rumah IC" required></textarea>
+
+    <label for="nomor">Nomor Hp:</label>
+    <textarea id="nomor" name="nomor" rows="4" placeholder="Masukan nomor hp karakter" required></textarea>
+
+    <label for="perihal">Perihal:</label>
+    <input type="text" id="perihal" name="perihal" placeholder="Tujuan mengirimkan surat" required>
+
+    <label for="keterangan">Keterangan:</label>
+    <textarea id="keterangan" name="keterangan" rows="4" required placeholder="Kirim link SS /stats dan /mp. simpan link img menggunakan id.imgbb.com"></textarea>
+    <input type="submit" value="Submit">
+</form>
+<br>
+    <p>Note : Data akan terkirim langsung kepada presiden dan wakilnya, untuk setiap pengajuan selalu di seleksi setiap minggu nya.</p><hr>
+<br>
+    <center>
+    <div id="copyright">
+        <div class="wrapper">
+            &copy;2024 <b>Jabar Pride</b> All Rights Reserved.
+        </div>
+    </div>
+    </center>
+</body>
+  </html>
+  
